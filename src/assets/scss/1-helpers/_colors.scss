@@ -1,0 +1,42 @@
+// === Template colors
+
+$color_brand: #5691fe;
+$color_secondary: #30f080;
+$color_text: #606c82;
+$color_body: #ecf1f9;
+$color_white: #ffffff;
+$color_black: #183b56;
+
+// ------------ colors classes
+.color_brand {
+  color: $color_brand;
+}
+
+.color_secondary {
+  color: $color_secondary;
+}
+
+.color_text {
+  color: $color_text;
+}
+
+// ------------ bg classes
+.bg_brand {
+  background-color: $color_brand;
+}
+
+.bg_secondary {
+  background-color: $color_brand;
+}
+
+.bg_body {
+  background-color: $color_body;
+}
+
+.bg_white {
+  background-color: $color_white !important;
+}
+
+.bg_black {
+  background-color: $color_black !important;
+}
