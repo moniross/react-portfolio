@@ -1,0 +1,10 @@
+nav {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  background-color: $color_bg_variant;
+  padding: 10px 30px;
+  border-radius: 5px;
+}

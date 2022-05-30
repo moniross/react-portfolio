@@ -9,11 +9,10 @@ h5,
 h6 {
   clear: both;
   font-family: $font_titles !important;
-  font-weight: bold;
   text-align: inherit;
   position: relative;
-  color: $color_black;
-  letter-spacing: -0.01em;
+  color: $color_white;
+  margin: 0;
 }
 a {
   color: $color_brand;

@@ -1,3 +1,4 @@
+import "./assets/plugins/bootstrap.min.css";
 import "./assets/scss/style.scss";
 import Nav from "./components/nav/Nav";
 import Header from "./components/header/Header";

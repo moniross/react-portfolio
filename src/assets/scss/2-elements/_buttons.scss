@@ -8,13 +8,14 @@ a.btn input.btn,
 a.button,
 span.button,
 div.button {
+  color: $color_brand;
   width: max-content;
   display: inline-block;
-  pad: 0.75rem 1.2rem;
+  padding: 0.75rem 1.2rem;
   border: 0.4rem;
   cursor: pointer;
   border: 1px solid $color_brand;
-  transform: $transition_function;
+  transition: $transition;
   &:hover {
     background: $color_white;
     color: $color_bg;
@@ -24,5 +25,8 @@ div.button {
   &.btn_primary {
     background: $color_brand;
     color: $color_bg;
+    &:hover {
+      background: $color_white;
+    }
   }
 }
