@@ -2,9 +2,27 @@
 ## btn styles
 --------------------------------------------------------------*/
 
-// input[type="submit"],
-// .btn,
-// a.btn input.btn,
-// a.button,
-// span.button,
-// div.button
+input[type="submit"],
+.btn,
+a.btn input.btn,
+a.button,
+span.button,
+div.button {
+  width: max-content;
+  display: inline-block;
+  pad: 0.75rem 1.2rem;
+  border: 0.4rem;
+  cursor: pointer;
+  border: 1px solid $color_brand;
+  transform: $transition_function;
+  &:hover {
+    background: $color_white;
+    color: $color_bg;
+    border-color: transparent;
+  }
+  //   variable style
+  &.btn_primary {
+    background: $color_brand;
+    color: $color_bg;
+  }
+}

@@ -33,6 +33,7 @@
 =======================*/
 
 @import "2-elements/buttons";
+@import "3-layout/sections";
 
 /* ===================
 4/ Layouts
@@ -41,4 +42,9 @@
 @import "../../components/header/header";
 @import "../../components/nav/nav";
 @import "../../components/about/about";
+@import "../../components/experience/experience";
+@import "../../components/services/services";
+@import "../../components/portfolio/portfolio";
+@import "../../components/testimonials/testimonials";
+@import "../../components/contact/contact";
 @import "../../components/footer/footer";

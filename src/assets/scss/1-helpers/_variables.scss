@@ -1,6 +1,6 @@
 // ------ Global variable fonts
-$font-primary: "circular_bold";
-$font-secondary: "circular";
+$font-primary: "Poppins-Bold";
+$font-secondary: "Poppins-Regular";
 
 // Animation & transitions
 $transition_function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -20,20 +20,20 @@ $font_size_regular: 16px;
 $font_size_large: 22px;
 $font_size_large_mobile: 16.6px;
 
-$font_size_h1: 55px;
-$font_size_h1_mobile: 40px;
+$font_size_h1: 48px;
+$font_size_h1_mobile: 44px;
 
-$font_size_h2: 34px;
+$font_size_h2: 36px;
 $font_size_h2_mobile: 32px;
 
-$font_size_h3: 26px;
+$font_size_h3: 28px;
 $font_size_h3_mobile: 24px;
 
-$font_size_h4: 20px;
-$font_size_h4_mobile: 19px;
+$font_size_h4: 24px;
+$font_size_h4_mobile: 20px;
 
-$font_size_h5: 18px;
-$font_size_h5_mobile: 16px;
+$font_size_h5: 20px;
+$font_size_h5_mobile: 18px;
 
-$font_size_h6: 16px;
-$font_size_h6_mobile: 15.5px;
+$font_size_h6: 18px;
+$font_size_h6_mobile: 16px;

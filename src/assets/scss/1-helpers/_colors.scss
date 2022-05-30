@@ -1,9 +1,11 @@
 // === Template colors
 
-$color_brand: #5691fe;
-$color_secondary: #30f080;
+$color_brand: #4db5ff;
+$color_brand_variant: rgba(77, 181, 255, 0.4);
 $color_text: #606c82;
-$color_body: #ecf1f9;
+$color_bg: #1f1f38;
+$color_bg_variant: #2c2c6c;
+$color_light: rgba(255, 255, 255, 0.6);
 $color_white: #ffffff;
 $color_black: #183b56;
 
@@ -12,12 +14,15 @@ $color_black: #183b56;
   color: $color_brand;
 }
 
-.color_secondary {
-  color: $color_secondary;
+.color_brand_variant {
+  color: $color_brand_variant;
 }
 
 .color_text {
   color: $color_text;
+}
+.color_light {
+  color: $color_light;
 }
 
 // ------------ bg classes
@@ -25,18 +30,26 @@ $color_black: #183b56;
   background-color: $color_brand;
 }
 
-.bg_secondary {
-  background-color: $color_brand;
+.color_brand_variant {
+  background-color: $color_brand_variant;
 }
 
-.bg_body {
-  background-color: $color_body;
+.bg_color {
+  background-color: $color_bg;
+}
+
+.bg_color_variant {
+  background-color: $color_bg_variant;
+}
+
+.bg_light {
+  background-color: $color_light;
 }
 
 .bg_white {
-  background-color: $color_white !important;
+  background-color: $color_white;
 }
 
 .bg_black {
-  background-color: $color_black !important;
+  background-color: $color_black;
 }
