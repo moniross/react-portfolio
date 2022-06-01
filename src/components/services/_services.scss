@@ -1,0 +1,38 @@
+#services {
+  .row {
+    --bs-gutter-y: 40px;
+    --bs-gutter-x: 40px;
+  }
+  .services_box {
+    border: 1px solid $color_brand;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: $transition;
+    background: $color_bg_variant;
+    &:hover {
+      background: transparent;
+    }
+    .service_title {
+      color: $color_bg;
+      background: $color_brand;
+      text-align: center;
+      font-size: 16px;
+      padding: 1rem 0;
+    }
+    ul {
+      padding: 2rem;
+      li {
+        margin-bottom: 1.2rem;
+        display: flex;
+        gap: 1rem;
+        .services_icon {
+          color: $color_brand;
+          font-size: 25px;
+        }
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

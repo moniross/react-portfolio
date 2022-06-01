@@ -1,5 +1,6 @@
 section {
   margin-top: 8rem;
+  // height: 100vh;
   @include tablet_screen {
     margin-top: 6rem;
   }
@@ -12,7 +13,9 @@ section {
     }
   }
   .subheading {
+    display: block;
     color: $color_light;
     text-align: center;
+    font-size: 15px;
   }
 }

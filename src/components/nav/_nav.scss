@@ -2,9 +2,29 @@ nav {
   position: fixed;
   bottom: 1rem;
   left: 50%;
+  width: max-content;
   transform: translateX(-50%);
-  z-index: 999;
-  background-color: $color_bg_variant;
-  padding: 10px 30px;
-  border-radius: 5px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0.7rem 1.7rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  display: flex;
+  gap: 0.8rem;
+  a {
+    font-family: $font_primary;
+    font-weight: bold;
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: $color_light;
+    &:hover {
+      background: $color_bg;
+    }
+    &.active {
+      background: $color_brand;
+      color: $color_bg;
+    }
+  }
 }

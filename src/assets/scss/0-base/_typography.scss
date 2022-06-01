@@ -48,7 +48,7 @@ h5 {
 
 h6 {
   @include fluid-type($font_size_h6_mobile, $font_size_h6);
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .txt_hero {
@@ -63,14 +63,14 @@ h6 {
 }
 
 .txt {
-  font-size: 17px;
+  font-size: 16px;
   &._bold {
     font-family: $font-primary;
   }
 }
 
 .txt_sm {
-  font-size: 16px;
+  font-size: 15px;
   &._bold {
     font-family: $font-primary;
   }

@@ -1,0 +1,91 @@
+#about {
+  overflow: hidden;
+  .row {
+    --bs-gutter-x: 5rem;
+    align-items: center;
+    @include xl {
+      --bs-gutter-x: 4rem;
+    }
+  }
+  .about_img {
+    background: linear-gradient(45deg, transparent, $color_brand, transparent);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    @include lg {
+      width: 50%;
+      margin: 1rem auto 3rem;
+    }
+    &:hover {
+      img {
+        transform: rotate(0deg);
+      }
+    }
+    img {
+      overflow: hidden;
+      border-radius: 2rem;
+      transition: $transition;
+      transform: rotate(10deg);
+    }
+  }
+  .about_content {
+    .about_cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      @include lg {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+      }
+      .about_card {
+        flex: 2 2 200px;
+        background: $color_bg_variant;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        text-align: center;
+        transition: $transition;
+        @include lg {
+          width: max-content;
+        }
+        &:hover {
+          background: transparent;
+          border-color: $color_brand_variant;
+        }
+
+        .about_icon {
+          color: $color_brand;
+          font-size: 1.4rem;
+          margin-bottom: 1rem;
+        }
+        small {
+          font-size: 0.8rem;
+          color: $color_text;
+        }
+      }
+    }
+    p {
+      @include lg {
+        margin-bottom: 1.5rem;
+      }
+      @include maxMobile {
+        text-align: center;
+      }
+    }
+    .btn {
+      @include maxMobile {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}

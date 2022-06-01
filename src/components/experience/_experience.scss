@@ -1,0 +1,48 @@
+#expernience {
+  .row {
+    --bs-gutter-y: 40px;
+    --bs-gutter-x: 40px;
+  }
+  .frontend,
+  .backend {
+    border-radius: 2rem;
+    background: $color_bg_variant;
+    padding: 2rem 3rem;
+    border: 1px solid transparent;
+    transition: $transition;
+    &:hover {
+      background: transparent;
+      border-color: $color_brand_variant;
+    }
+    .skills_title {
+      color: $color_brand;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      .skill_box {
+        display: flex;
+        flex: 1 1 152px;
+        max-width: 158px;
+        gap: 1rem;
+        @include sm {
+          max-width: max-content;
+          align-items: center;
+        }
+        .skill_icon {
+          margin-top: 4px;
+          color: $color_brand;
+          @include sm {
+            margin-top: 0;
+          }
+        }
+        .skill_name {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
